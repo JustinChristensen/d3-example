@@ -117,12 +117,11 @@
     $(document).ready(function () {
 
         var gauge = new Gauge({
-            progress: 513364.96,
-            goal: 700000.00,
+            progress: 50,
+            goal: 1000,
             colors: [
                 [0, "red"],
-                [80, "red"],
-                [81, "yellow"],
+                [80, "orange"],
                 [90, "yellow"],
                 [100, "green"]
             ]
@@ -131,20 +130,16 @@
         gauge.render("#arc");
 
         setTimeout(function () {
-            gauge.setGoal(1000000);
+            gauge.setProgress(800);
 
             setTimeout(function () {
-                gauge.setProgress(125000.36);
+                gauge.setProgress(900);
 
                 setTimeout(function () {
-                    gauge.setProgress(900000);
-
-                    setTimeout(function () {
-                        gauge.setProgress(1000000);
-                    }, 1250);
+                    gauge.setProgress(1000);
                 }, 1250);
             }, 1250);
-        }, 3000);
+        }, 1250);
     });
 
 }(window, document));
