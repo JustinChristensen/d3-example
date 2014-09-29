@@ -1,0 +1,14 @@
+{
+  "name": "d3funzies",
+  "version": "1.0.0",
+  "authors": [
+    "Justin Christensen <wroathe@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "d3": "~3.4.11",
+    "jquery": "~2.1.1",
+    "normalize-scss": "~3.0.1"
+  }
+}

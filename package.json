@@ -1,0 +1,15 @@
+{
+  "name": "d3funzies",
+  "version": "1.0.0",
+  "private": true,
+  "description": "D3 Arc & Bar Chart Example",
+  "author": "Justin Christensen <wroathe@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-concurrent": "^1.0.0",
+    "grunt-contrib-connect": "^0.8.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-sass": "^0.14.2"
+  }
+}
